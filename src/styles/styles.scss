@@ -1,3 +1,5 @@
+@import '_variables.scss';
+
 $sizeUnit: rem;
 $marginKey: 'm';
 $paddingKey: 'p';
@@ -37,4 +39,9 @@ $positions: (('t', 'top'), ('r', 'right'), ('b', 'bottom'), ('l', 'left'));
       padding-#{$posValue}: sizeValue($sizeKey, $sizeValue);
     }
   }
+}
+
+.is-dark-color {
+  background: #2e363f;
+  color: #afb8c3 !important;
 }
